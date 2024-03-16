@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/FrontEnd/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <select name="grade" id="grade" onchange="fillSubjects()">
+
+    </select>
+    <select name="subject" id="subject">
+
+    </select>
+    <select name="mode" id="mode">
+        <option value="all_questions_with_answers">See All Questions + Answers</option>
+        <option value="all_questions">See All Questions</option>
+        <option value="generate_qs_paper">Generate Qs Paper</option>
+    </select>
+    <button onclick="start()">filter</button>
+
+    <div id="questionAnswers_container">
+
+    </div>
+</body>
+<script src="/FrontEnd/Js/scripts.js"></script>
+</html>
