@@ -1,0 +1,29 @@
+{
+    "BCA_S5": [
+        {
+            "id": 1,
+            "name": "MIS and E-Business",
+            "identifier": "CACS501"
+        },
+        {
+            "id": 2,
+            "name": "Computer Graphics And Applications",
+            "identifier": "CACS502"
+        },
+        {
+            "id": 3,
+            "name": "MIS and E-Business 3",
+            "identifier": "CACS503"
+        },
+        {
+            "id": 4,
+            "name": "MIS and E-Business 4",
+            "identifier": "CACS504"
+        },
+        {
+            "id": 5,
+            "name": "MIS and E-Business 5",
+            "identifier": "CACS505"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "BCA 5th Semester",
+        "identifier": "BCA_S5"
+    },
+    {
+        "id": 2,
+        "name": "BCA 6th Semester",
+        "identifier": "BCA_S6"
+    }
+]

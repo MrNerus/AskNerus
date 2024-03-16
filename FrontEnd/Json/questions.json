@@ -1,0 +1,39 @@
+{
+    "CACS501": [
+        {
+            "id": 1,
+            "question": "What is CAC?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS501_1"
+        },
+        {
+            "id": 2,
+            "question": "What is CAC?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS501_2"
+        },
+        {
+            "id": 3,
+            "question": "What is CAC?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS501_3"
+        },
+        {
+            "id": 4,
+            "question": "What is CAC?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS501_4"
+        },
+        {
+            "id": 5,
+            "question": "What is CAC?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS501_5"
+        }
+    ]
+}
