@@ -5,6 +5,8 @@ var questions = {};
 var answers = {};
 
 
+// const marked = require('marked');
+
 
 // fetch json into these variable
 fetch('/FrontEnd/Json/subjects.json')
@@ -86,23 +88,44 @@ function displayQuestionsAnswers(subject) {
         let dom_question_container = document.createElement('div');
         dom_question_container.className = "question_container";
         dom_question_container.innerHTML = `
-            <div class = "question">${all_questions[i].question}</div>
+            <div class = "question" id="${qs_identifier}" onclick=showAnswers('${qs_identifier}') data-toggle="collapsed">${all_questions[i].question}</div>
         `;
         let dom_answers = document.createElement('div');
         dom_answers.className = "answers";
         
         for (let j = 0; j < answers[qs_identifier].answers.length; j++) {
-            let dom_aproach = document.createElement('div');
-            dom_aproach.className = "aproach";
-
-            dom_aproach.innerHTML = `
-                    <div class="approachHeader">Approach ${j+1}</div>
-                    ${answers[qs_identifier].answers[j]}
-            `
-            dom_answers.appendChild(dom_aproach);
+            fetch(`/FrontEnd/MDs/${answers[qs_identifier].answers[j]}`)
+            .then((response) => response.text())
+            .then((text) => {
+                
+                let dom_aproach = document.createElement('div');
+                dom_aproach.className = "aproach";
+    
+                dom_aproach.innerHTML = `
+                        <div class="approachHeader">Approach ${j+1}</div>
+                        <div class="approachContent">${marked.parse(text)}</div>
+                `
+                dom_answers.appendChild(dom_aproach);
+            })
         }
         dom_question_container.appendChild(dom_answers);
         dom_questionAnswers_container.appendChild(dom_question_container);
     }
         console.log(all_questions);
+}
+
+
+
+
+function showAnswers(qs_identifier) {
+    let question = document.getElementById(qs_identifier);
+    if (question.getAttribute('data-toggle') == 'collapsed') {
+        question.setAttribute('data-toggle', 'expanded');
+        question.nextElementSibling.style.height = `${question.nextElementSibling.scrollHeight}px`;
+        // question.nextSibling.style.height 
+    } else {
+        question.setAttribute('data-toggle', 'collapsed');
+        question.nextElementSibling.style.height = `0px`;
+
+    }
 }
