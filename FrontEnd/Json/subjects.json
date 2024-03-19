@@ -12,18 +12,18 @@
         },
         {
             "id": 3,
-            "name": "MIS and E-Business 3",
+            "name": "Dot Net Technology",
             "identifier": "CACS503"
-        },
-        {
-            "id": 4,
-            "name": "MIS and E-Business 4",
-            "identifier": "CACS504"
         },
         {
             "id": 5,
             "name": "MIS and E-Business 5",
             "identifier": "CACS505"
+        },
+        {
+            "id": 4,
+            "name": "Computer Graphics anf Animations",
+            "identifier": "CACS305"
         }
     ]
 }
