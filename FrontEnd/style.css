@@ -5,6 +5,8 @@
     --foreground: #a5b5c5;
     --border: 1px solid var(--line);
     --noBorder: 0px solid var(--line);
+
+    --warning: #ff0044;
 }
 
 *:not(.approachContent *) {
@@ -121,3 +123,12 @@ select option {
     padding: 1rem;
 }
 
+
+.note {
+    padding: 1rem;
+    background: var(--warning);
+    border-radius: 1rem;
+}
+.note strong {
+    font-weight: 600;
+}

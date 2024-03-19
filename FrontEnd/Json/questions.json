@@ -163,5 +163,88 @@
             "askedIn": ["2020"]
         }
         
+    ],
+    "CACS305": [
+        {
+            "id": 1,
+            "question": "What is computer graphics? Explain different application areas of computer graphics.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS305_1",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 2,
+            "question": "How can you draw a circle using mid-point circle algorithm? Explain with the algorithm.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS305_2",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 3,
+            "question": "Explain 3D basic geometric transformation with an example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS305_3",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 4,
+            "question": "What is polygon clipping? Explain Sutherland Hodgman algorithm for polygon clipping.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS305_4",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 5,
+            "question": "Given a triangle with vertices A(2,3), B(5,5), C(4,3) by rotating 90 degree about the origin and then translating two unit in each direction. Use homogenous transformation matrix to find the new vertices of the triangle.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS305_5",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 6,
+            "question": "Explain the scan line algorithm for visible surface detection.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS305_6",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 7,
+            "question": "Explain the architecture of VR system with necessary components.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS305_7",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 8,
+            "question": "Explain the working details of DDA line drawing algorithm? Digitize the line with endpoints (2,2) and (10,5) using Bresenham's line drawing algorithm.",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CACS305_8",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 9,
+            "question": "Write the different between object space method and image space method. Explain Z buffer algorithm for visible surface detection.",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CACS305_9",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 10,
+            "question": "Derive the formula for windows to viewport transformation. Given a window bordered by (0,0) at the lower left and (4,4) at the upper right. Similarly, a viewport bordered by (0,0) at the lower left and (2,2) at the upper right. If a window at position (2,4) is mapped into the viewport. What will be the position of viewport to maintain same relative placement as in window?",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CACS305_10",
+            "askedIn": ["2020"]
+        }
+        
     ]
 }

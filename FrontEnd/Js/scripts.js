@@ -9,27 +9,43 @@ var answers = {};
 
 
 // fetch json into these variable
-fetch('/AskNerus/FrontEnd/Json/subjects.json')
-.then((response) => response.json())
-.then((json) => {
-    subjects = json;
-});
-fetch('/AskNerus/FrontEnd/Json/grade.json')
-.then((response) => response.json())
-.then((json) => {
-    grades = json;
-    fillGrades();
-});
-fetch('/AskNerus/FrontEnd/Json/questions.json')
-.then((response) => response.json())
-.then((json) => {
-    questions = json;
-});
-fetch('/AskNerus/FrontEnd/Json/answers.json')
-.then((response) => response.json())
-.then((json) => {
-    answers = json;
-});
+setTimeout(() => {
+    fetch('/AskNerus/FrontEnd/Json/subjects.json') ////Github
+    // fetch('/FrontEnd/Json/subjects.json') ////Local
+    .then((response) => response.json())
+    .then((json) => {
+        subjects = json;
+    });   
+}, 500);
+
+setTimeout(() => {
+    fetch('/AskNerus/FrontEnd/Json/questions.json') ////Github
+    // fetch('/FrontEnd/Json/questions.json') ////Local
+    .then((response) => response.json())
+    .then((json) => {
+        questions = json;
+    });
+}, 1000);
+
+setTimeout(() => {
+    fetch('/AskNerus/FrontEnd/Json/answers.json') ////Github
+    // fetch('/FrontEnd/Json/answers.json') ////Local
+    .then((response) => response.json())
+    .then((json) => {
+        answers = json;
+    });
+}, 1500);
+
+setTimeout(() => {
+    fetch('/AskNerus/FrontEnd/Json/grade.json') ////Github
+    // fetch('/FrontEnd/Json/grade.json') ////Local
+    .then((response) => response.json())
+    .then((json) => {
+        grades = json;
+        fillGrades();
+    });
+}, 2000);
+
 
 
 
@@ -94,7 +110,8 @@ function displayQuestionsAnswers(subject) {
         dom_answers.className = "answers";
         
         for (let j = 0; j < answers[qs_identifier].answers.length; j++) {
-            fetch(`/AskNerus/FrontEnd/MDs/${answers[qs_identifier].answers[j]}`)
+            fetch(`/AskNerus/FrontEnd/MDs/${answers[qs_identifier].answers[j]}`) ////Github
+            // fetch(`/FrontEnd/MDs/${answers[qs_identifier].answers[j]}`) ////Local
             .then((response) => response.text())
             .then((text) => {
                 
@@ -103,8 +120,12 @@ function displayQuestionsAnswers(subject) {
     
                 dom_aproach.innerHTML = `
                         <div class="approachHeader">Approach ${j+1}</div>
-                        <div class="approachContent">${marked.parse(text)}</div>
+                        <div class="approachContent">${marked(text, { gfm: true })}</div>
                 `
+                // dom_aproach.innerHTML = `
+                //         <div class="approachHeader">Approach ${j+1}</div>
+                //         <div class="approachContent">${marked.parse(text)}</div>
+                // `
                 dom_answers.appendChild(dom_aproach);
             })
         }

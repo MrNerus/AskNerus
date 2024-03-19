@@ -3,26 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Poppins:wght@300;400&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Github -->
+    <!-- <link rel="stylesheet" href="/AskNerus/FrontEnd/style.css"> -->
+    <!-- Local -->
     <link rel="stylesheet" href="/FrontEnd/style.css">
-    <title>Document</title>
+    
+    <title>AskNerus</title>
 </head>
 <body>
-    <select name="grade" id="grade" onchange="fillSubjects()">
+    <div class="menu">
 
-    </select>
-    <select name="subject" id="subject">
-
-    </select>
-    <select name="mode" id="mode">
-        <option value="all_questions_with_answers">See All Questions + Answers</option>
-        <option value="all_questions">See All Questions</option>
-        <option value="generate_qs_paper">Generate Qs Paper</option>
-    </select>
-    <button onclick="start()">filter</button>
-
-    <div id="questionAnswers_container">
-
+        <select name="grade" id="grade" onchange="fillSubjects()">
+            
+        </select>
+        <select name="subject" id="subject">
+            
+        </select>
+        <select name="mode" id="mode">
+            <option value="all_questions_with_answers">See All Questions + Answers</option>
+            <option value="all_questions">See All Questions</option>
+            <option value="generate_qs_paper">Generate Qs Paper</option>
+        </select>
+        <button onclick="start()">filter</button>
+    </div>
+    
+    <div id="questionAnswers_container" class="questionAnswers_container">
+        
     </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/marked@2.1.3/marked.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> -->
+<!-- Github -->
+<!-- <script src="/AskNerus/FrontEnd/Js/scripts.js"></script> --> 
+<!-- Local -->
 <script src="/FrontEnd/Js/scripts.js"></script>
 </html>
