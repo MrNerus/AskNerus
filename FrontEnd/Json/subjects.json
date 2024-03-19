@@ -3,12 +3,12 @@
         {
             "id": 1,
             "name": "MIS and E-Business",
-            "identifier": "CACS501"
+            "identifier": "CACS301"
         },
         {
             "id": 2,
-            "name": "Computer Graphics And Applications",
-            "identifier": "CACS502"
+            "name": "Introduction To Management",
+            "identifier": "CAMG304"
         },
         {
             "id": 3,
