@@ -1,11 +1,11 @@
 {
-    "CACS501": [
+    "CACS301": [
         {
             "id": 1,
             "question": "How properties like ubiquity, richness and information density make e-commerce better than traditional commerce?",
             "marks": 5,
             "probability": 0.5,
-            "identifier": "CACS501_1",
+            "identifier": "CACS301_1",
             "askedIn": ["2020"]
         },
         {
@@ -13,7 +13,7 @@
             "question": "Differentiate B2C, B2B and C2C e-commerce with examples",
             "marks": 5,
             "probability": 0.5,
-            "identifier": "CACS501_2",
+            "identifier": "CACS301_2",
             "askedIn": ["2020"]
         },
         {
@@ -21,7 +21,7 @@
             "question": "What is the role of information superhighway in e-commerce? List the components of information superhighway?",
             "marks": 5,
             "probability": 0.5,
-            "identifier": "CACS501_3",
+            "identifier": "CACS301_3",
             "askedIn": ["2020"]
         },
         {
@@ -29,7 +29,7 @@
             "question": "What is international information system? Describe the concepts of outsourcing and offshoring in the system.",
             "marks": 5,
             "probability": 0.5,
-            "identifier": "CACS501_4",
+            "identifier": "CACS301_4",
             "askedIn": ["2020"]
         },
         {
@@ -37,7 +37,7 @@
             "question": "Define availability, authentication and authorization. How they can be enforced in e-commerce security?",
             "marks": 5,
             "probability": 0.5,
-            "identifier": "CACS501_5",
+            "identifier": "CACS301_5",
             "askedIn": ["2020"]
         },
         {
@@ -45,7 +45,7 @@
             "question": "What is e-checking? Describe its working mechanism.",
             "marks": 5,
             "probability": 0.5,
-            "identifier": "CACS501_6",
+            "identifier": "CACS301_6",
             "askedIn": ["2020"]
         },
         {
@@ -53,7 +53,7 @@
             "question": "Describe the website design criteria that one should show while designing an e-commerce website.",
             "marks": 5,
             "probability": 0.5,
-            "identifier": "CACS501_7",
+            "identifier": "CACS301_7",
             "askedIn": ["2020"]
         },
         {
@@ -61,7 +61,7 @@
             "question": "What do you mean by Wireless Application Protocol (WAP)? How it works? Discuss the layered architecture of WAP.",
             "marks": 10,
             "probability": 0.5,
-            "identifier": "CACS501_8",
+            "identifier": "CACS301_8",
             "askedIn": ["2020"]
         },
         {
@@ -69,7 +69,7 @@
             "question": "How important web contents are for e-commerce systems? Discuss their types. Justify, with examples, how web contents can be used to promote cross-selling, up-selling and promotions in e-commerce.",
             "marks": 10,
             "probability": 0.5,
-            "identifier": "CACS501_9",
+            "identifier": "CACS301_9",
             "askedIn": ["2020"]
         },
         {
@@ -77,8 +77,91 @@
             "question": "Discuss in detail the security defends strategies that you can implement while securing e-commerce systems from security attacks and threats.",
             "marks": 10,
             "probability": 0.5,
-            "identifier": "CACS501_10",
+            "identifier": "CACS301_10",
             "askedIn": ["2020"]
         }
+    ],
+    "CAMG304": [
+        {
+            "id": 1,
+            "question": "What is management? Explain the functions of management.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAMG304_1",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 2,
+            "question": "Define scientific management. Explain the major contributions made by F.W. Taylor.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAMG304_2",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 3,
+            "question": "Describe the formal and informal group with suitable example. ",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAMG304_3",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 4,
+            "question": "What is planning? Discuss the steps involved in planning process.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAMG304_4",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 5,
+            "question": "What are the barriers of effective communication in any organizations? Explain.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAMG304_5",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 6,
+            "question": "Why is motivation important to achieve organizational goals?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAMG304_6",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 7,
+            "question": "Define delegation of authority. Explain major features of delegation of authority.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAMG304_7",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 8,
+            "question": "Planning is head and controlling is tail. Justify.",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CAMG304_8",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 9,
+            "question": "Define leadership. Explain different style of leadership with suitable example.",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CAMG304_9",
+            "askedIn": ["2020"]
+        },
+        {
+            "id": 10,
+            "question": "What are managerial skills? What skills  are essential for a successful manager.",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CAMG304_10",
+            "askedIn": ["2020"]
+        }
+        
     ]
 }
