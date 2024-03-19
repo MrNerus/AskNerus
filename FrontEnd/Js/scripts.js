@@ -9,23 +9,23 @@ var answers = {};
 
 
 // fetch json into these variable
-fetch('/FrontEnd/Json/subjects.json')
+fetch('/AskNerus/FrontEnd/Json/subjects.json')
 .then((response) => response.json())
 .then((json) => {
     subjects = json;
 });
-fetch('/FrontEnd/Json/grade.json')
+fetch('/AskNerus/FrontEnd/Json/grade.json')
 .then((response) => response.json())
 .then((json) => {
     grades = json;
     fillGrades();
 });
-fetch('/FrontEnd/Json/questions.json')
+fetch('/AskNerus/FrontEnd/Json/questions.json')
 .then((response) => response.json())
 .then((json) => {
     questions = json;
 });
-fetch('/FrontEnd/Json/answers.json')
+fetch('/AskNerus/FrontEnd/Json/answers.json')
 .then((response) => response.json())
 .then((json) => {
     answers = json;
@@ -94,7 +94,7 @@ function displayQuestionsAnswers(subject) {
         dom_answers.className = "answers";
         
         for (let j = 0; j < answers[qs_identifier].answers.length; j++) {
-            fetch(`/FrontEnd/MDs/${answers[qs_identifier].answers[j]}`)
+            fetch(`/AskNerus/FrontEnd/MDs/${answers[qs_identifier].answers[j]}`)
             .then((response) => response.text())
             .then((text) => {
                 
