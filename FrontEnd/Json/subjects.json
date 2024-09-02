@@ -25,5 +25,13 @@
             "name": "Computer Graphics anf Animations",
             "identifier": "CACS305"
         }
+    ],
+    "BCA_S6": [
+        { "id": 1, "name": "Mobile Programming",  "identifier": "CACS351" },
+        { "id": 2, "name": "Distributed System",  "identifier": "CACS352" },
+        { "id": 3, "name": "Applied Economics",   "identifier": "CAEC353" },
+        { "id": 4, "name": "Advanced Java",       "identifier": "CACS354" },
+        { "id": 5, "name": "Network Programming", "identifier": "CACS355" },
+        { "id": 6, "name": "Project II",          "identifier": "CAPJ356" }
     ]
 }

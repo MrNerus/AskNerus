@@ -1,5 +1,6 @@
 :root {
     font-size: 16px;
+    --font-size: 16px;
     --line: #3a4b5c;
     --background: #0a0b0c;
     --foreground: #a5b5c5;
@@ -104,6 +105,11 @@ body {
     flex-wrap: wrap;
     gap: 1rem;
 }
+.menu > * {
+    flex-grow: 1;
+    padding: var(0.5rem)
+}
+
 
 select {
     padding: 1rem;
@@ -132,3 +138,33 @@ select option {
 .note strong {
     font-weight: 600;
 }
+
+
+.warning {
+    --color: #ff8800;
+    background: color-mix(in srgb, var(--color) 20%, #00000000 80%);
+    border-radius: var(--font-size);
+    padding: var(--font-size);
+    color: var(--color);
+    border: 1px solid var(--color);
+}
+.warning * {
+    line-height: 0;
+}
+/* 
+code.language-xml {
+    width: 100%;
+    overflow-x: scroll;
+    background: #00000088;
+    font-family: monospace;
+    border: 1px solid var(--line);
+    border-radius: var(--font-size);
+    padding: var(--font-size)
+} */
+
+code.language-xml {
+    width: 100%;
+    overflow-x: scroll;
+    background: #00000088;
+}
+

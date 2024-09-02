@@ -246,5 +246,281 @@
             "askedIn": ["2020"]
         }
         
+    ],
+    "CACS351": [
+        {
+            "id": 1,
+            "question": "What do you mean by mobile device? Explain its features.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_1",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 2,
+            "question": "What do you mean by mobile programming? Explain life cycle of mobile application development.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_2",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 3,
+            "question": "What is android platform? Explain about history of android platform in detail.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_3",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 4,
+            "question": "How we can setup environment for android? Explain.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_4",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 5,
+            "question": "What do you mean by view hierarchy? Explain with the help of suitable example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_5",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 6,
+            "question": "Define widget. Explain different widget attributes with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_6",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 7,
+            "question": "How can we create string resources? Explain with the help of suitable example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_7",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 8,
+            "question": "Write a set of codes for creating activity. Also link xml file “activity_main.xml” to this activity.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_8",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 9,
+            "question": "Explain about manifest file. How can we add activity in manifest? Explain with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_9",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 10,
+            "question": "What is the role of intent-filter for any activity? Explain.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_10",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 11,
+            "question": "Explain the procedure for creating an AVD. Also write steps for running application on Emulator.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_11",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 12,
+            "question": "What do you mean by layout? List and explain different types of layout used in android with their major attributes.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_12",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 13,
+            "question": "Differentiate LinearLayout, RelativeLayout, ConstraintLayout, AbsoluteLayout with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_13",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 14,
+            "question": "Explain any five widgets with their attributes in detail.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_14",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 15,
+            "question": "What do you mean by event? Explain event handling in detail.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_15",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 16,
+            "question": "How can you use string and string array in android? Explain.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_16",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 17,
+            "question": "How can you use color in android? Explain.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_17",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 18,
+            "question": "Differentiate string and string array with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_18",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 19,
+            "question": "Explain the procedure for adding and displaying image in imageview. Also writecode snippet to add icon to your project.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_19",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 20,
+            "question": "Design a signup form using Relative, Linear, Absolute and Constraint Layout.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_20",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 21,
+            "question": "Design a simple UI for Book Entry in library.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_21",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 22,
+            "question": "Design a simple UI for patient registration in hospital.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_22",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 23,
+            "question": "Display the following data using TableLayout. {{Student Id, Name, Address, Gender}, {001, Ram Sharma, Birtamode, Male}, {002, Gita Sharma, Kathmandu, Female}}",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_23",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 24,
+            "question": "Design a simple calculator UI using TableLayout.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_24",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 25,
+            "question": "What do you mean by android activity? Explain android activity life cycle in detail.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_25",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 26,
+            "question": "How can you declare multiple activities in manifest? Explain.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_26",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 27,
+            "question": "What do you mean by intent? Explain.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_27",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 28,
+            "question": "How can you pass data between multiple activities using intent? Explain.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_28",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 29,
+            "question": "Develop an android application which get result back from a child activity.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_29",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 30,
+            "question": "Develop an android application to calculate simple interest. Your application should contain fields to input principal, rate, time and button for event handling. Calculate and display result in a TextView.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_30",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 31,
+            "question": "Develop an android application to calculate area and perimeter of rectangle. Your application should contain fields to input length and breadth and two buttons for calculating area and perimeter. Calculate and display result in a TextView.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_31",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 32,
+            "question": "Design a signup form using any layout of your choice.\n\t- Your design must include important widgets like TextView, EditText, Button, RadioButton, CheckBox, Spinner etc.\n\t- When user clicks a Button display inputted data in a TextView.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_32",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 33,
+            "question": "Develop a simple calculator application with two input fields for inputting numbers and four Buttons for performing addition, subtraction, multiplication and division. Display the result in a TextView.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_33",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 34,
+            "question": "Develop an android application to input your name, address, gender and other personal information. Pass and display this information in another activity.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS351_34",
+            "askedIn": ["-"]
+        },
+        
+        {}
     ]
 }
