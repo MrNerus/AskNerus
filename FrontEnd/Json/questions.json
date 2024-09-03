@@ -522,5 +522,88 @@
         },
         
         {}
+    ],
+    "CACS352": [
+        {
+            "id": 1,
+            "question": "What is RPC? Explain the RPC Process in brief.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_1",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 2,
+            "question": "Explain Different Characterstics of Distributed System.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_2",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 3,
+            "question": "Whay clock synchronization is needed in Disributed System? Explain the Network Time Protocol in brief.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_3",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 4,
+            "question": "Explain Structured Naming Scheme of an entity in brief.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_4",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 5,
+            "question": "Explain different types of Distributed System.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_5",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 6,
+            "question": "How Process Resilience isachived through groups?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_6",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 7,
+            "question": "Write short notes on:\n\ta) Bully Algorithm.\n\tb) Berkeley Algorithm.\n\tc) Denial of Service.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_7",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 8,
+            "question": "What is Virtualization? Explain different types of virtualization. Explain the role of middleware in Distributed System.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_8",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 9,
+            "question": "What are different architecture styles of distriuted system. Explain each of them in detail.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_9",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 10,
+            "question": "What is the role of coordinator in distributed system? Explain different approaches of electing a coordinator.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_10",
+            "askedIn": ["-"]
+        },
+        {}
     ]
 }
