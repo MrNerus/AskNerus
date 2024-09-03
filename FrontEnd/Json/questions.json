@@ -542,7 +542,7 @@
         },
         {
             "id": 3,
-            "question": "Whay clock synchronization is needed in Disributed System? Explain the Network Time Protocol in brief.",
+            "question": "Why clock synchronization is needed in Disributed System? Explain the Network Time Protocol in brief.",
             "marks": 5,
             "probability": 0.5,
             "identifier": "CACS352_3",
@@ -566,7 +566,7 @@
         },
         {
             "id": 6,
-            "question": "How Process Resilience isachived through groups?",
+            "question": "How Process Resilience is achived through groups?",
             "marks": 5,
             "probability": 0.5,
             "identifier": "CACS352_6",
