@@ -604,6 +604,86 @@
             "identifier": "CACS352_10",
             "askedIn": ["-"]
         },
+        {
+            "id": 11,
+            "question": "What is middleware? Explain the different architecture styles of distributed systems.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_11",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 12,
+            "question": "Differentiate between stateful and stateless servers.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_12",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 13,
+            "question": "Explain the Berkeley algorithm with a suitable diagram.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_13",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 14,
+            "question": "Explain the types of data-centric consistency models.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_14",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 15,
+            "question": "Define distributed commit. Explain the two-phase commit with a suitable diagram.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_15",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 16,
+            "question": "Describe security management in the context of distributed systems.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_16",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 17,
+            "question": "Write short notes on:\n\ta) Sequential consistency\n\tb) Access control matrix\n\tc) Message passing interface",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_17",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 18,
+            "question": "What is a distributed system? Explain the characteristics of distributed systems and different types of distributed systems.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_18",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 19,
+            "question": "What is an election algorithm? Explain the different election algorithms with a suitable diagram.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_19",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 20,
+            "question": "Explain Remote Procedure Call (RPC) and its working process with a suitable diagram. Furthermore, provide an explanation of message-oriented communication, along with an illustrative example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS352_20",
+            "askedIn": ["-"]
+        },
         {}
     ]
 }
