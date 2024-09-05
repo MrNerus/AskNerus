@@ -580,5 +580,75 @@
             "CACS352_20_1.md"
         ]
     },
+    "CAEC353_1": {
+        "id":1,
+        "identifier": "",
+        "answers": [
+            "CAEC353_1_1.md"
+        ]
+    },
+    "CAEC353_2": {
+        "id":2,
+        "identifier": "",
+        "answers": [
+            "CAEC353_2_1.md"
+        ]
+    },
+    "CAEC353_3": {
+        "id":3,
+        "identifier": "",
+        "answers": [
+            "CAEC353_3_1.md"
+        ]
+    },
+    "CAEC353_4": {
+        "id":4,
+        "identifier": "",
+        "answers": [
+            "CAEC353_4_1.md"
+        ]
+    },
+    "CAEC353_5": {
+        "id":5,
+        "identifier": "",
+        "answers": [
+            "CAEC353_5_1.md"
+        ]
+    },
+    "CAEC353_6": {
+        "id":6,
+        "identifier": "",
+        "answers": [
+            "CAEC353_6_1.md"
+        ]
+    },
+    "CAEC353_7": {
+        "id":7,
+        "identifier": "",
+        "answers": [
+            "CAEC353_7_1.md"
+        ]
+    },
+    "CAEC353_8": {
+        "id":8,
+        "identifier": "",
+        "answers": [
+            "CAEC353_8_1.md"
+        ]
+    },
+    "CAEC353_9": {
+        "id":9,
+        "identifier": "",
+        "answers": [
+            "CAEC353_9_1.md"
+        ]
+    },
+    "CAEC353_10": {
+        "id":10,
+        "identifier": "",
+        "answers": [
+            "CAEC353_10_1.md"
+        ]
+    },
     "": {}
 }

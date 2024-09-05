@@ -685,5 +685,88 @@
             "askedIn": ["-"]
         },
         {}
+    ],
+    "CAEC353": [
+        {
+            "id": 1,
+            "question": "Distinguish the concept of microeconomics and macroeconomics",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_1",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 2,
+            "question": "What is demand? Explain it's determinants.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_2",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 3,
+            "question": "a) A consumer buys 80 unit of goods at a price of Rs. 4 per unit. When the price falls, he buys 100 units. If the price elasticity of demand is -1, find out the new price of the goods. <br> b) Price elsaticity of supply of good is 5. A producer cells 500 unit of this goodat Rs. 5 per unit. How much will sell at the price of Rs. 6 per unit?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_3",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 4,
+            "question": "Price effect is the combination of income and substitution effect. Describe.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_4",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 5,
+            "question": "Explain the relationship between AR and MR.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_5",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 6,
+            "question": "How the price and output are determined under perfect competition market in the long run?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_6",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 7,
+            "question": "Explain the primary and secondary function of money.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_7",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 8,
+            "question": "Explain the properties of Indifference Curve.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_8",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 9,
+            "question": "Based on the table given below, answer the question <table><tr><td>Quantity of Output</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Total Variable Cost</td><td>0</td><td>20</td><td>30</td><td>48</td><td>90</td><td>170</td></tr><tr><td>Total Cost</td><td>30</td><td>50</td><td>60</td><td>78</td><td>120</td><td>200</td></tr></table><br>a) Plot the TFC, TVC, and the Curves. <br>b) Explain the reason for the shape of short run total cost curve. <br>c) Calculate the average fixed cost (AFC), the average variable cost (AVC), the average total cost (ATC), and the marginal cost(MC).",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_9",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 10,
+            "question": "Condsider the following data to calculate the following: <br><table><tr><th>S.No.</th><th>Particulars</th><th>Rs. (In Crores)</th></tr><tr><td>1.</td><td>Export of Goods and Services</td><td>3542</td></tr><tr><td>2.</td><td>Import of Goods and Services</td><td>3632</td></tr><tr><td>3.</td><td>Private Final Consumption Expenditure/td><td>58326</td></tr><tr><td>4.</td><td>Net Factor Income from Abroad (NFIA)</td><td>-568</td></tr><tr><td>5.</td><td>Subsidies</td><td>674</td></tr><tr><td>6.</td><td>Capital Consumption Allowances (Depreciation)</td><td>4434</td></tr><tr><td>7.</td><td>Compensation of Employees</td><td>26726</td></tr><tr><td>8.</td><td>Covernment's Final consumption Expenditure</td><td>7602</td></tr><tr><td>9.</td><td>Indirect Taxes</td><td>7728</td></tr><tr><td>10.</td><td>Grossed Fixed Capital Formation</td><td>12610</td></tr><tr><td>11.</td><td>Mixed Income of the self-employees</td><td>32224</td></tr><tr><td>13.</td><td>Change in Stocks</td><td>2078</td></tr></table><br>a) GDP<sub>MP</sub> by using income method and by ependiture method.<br>b) GDP<sub>FC</sub> and GNP<sub>MP</sub><br>c) NNP<sub>FC</sub> and NNP<sub>MP</sub>",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_10",
+            "askedIn": ["-"]
+        },
+        {}
     ]
 }
