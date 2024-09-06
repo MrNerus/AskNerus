@@ -7,44 +7,46 @@ var answers = {};
 
 // const marked = require('marked');
 
+window.addEventListener('load', function() {
 
-// fetch json into these variable
-setTimeout(() => {
-    fetch('/AskNerus/FrontEnd/Json/subjects.json') ////Github
-    // fetch('/FrontEnd/Json/subjects.json') ////Local
-    .then((response) => response.json())
-    .then((json) => {
-        subjects = json;
-    });   
-}, 500);
+    // fetch json into these variable
+    setTimeout(() => {
+        fetch('/AskNerus/FrontEnd/Json/subjects.json') ////Github
+        // fetch('/FrontEnd/Json/subjects.json') ////Local
+        .then((response) => response.json())
+        .then((json) => {
+            subjects = json;
+        });   
+    }, 500);
 
-setTimeout(() => {
-    fetch('/AskNerus/FrontEnd/Json/questions.json') ////Github
-    // fetch('/FrontEnd/Json/questions.json') ////Local
-    .then((response) => response.json())
-    .then((json) => {
-        questions = json;
-    });
-}, 1000);
+    setTimeout(() => {
+        fetch('/AskNerus/FrontEnd/Json/questions.json') ////Github
+        // fetch('/FrontEnd/Json/questions.json') ////Local
+        .then((response) => response.json())
+        .then((json) => {
+            questions = json;
+        });
+    }, 1000);
 
-setTimeout(() => {
-    fetch('/AskNerus/FrontEnd/Json/answers.json') ////Github
-    // fetch('/FrontEnd/Json/answers.json') ////Local
-    .then((response) => response.json())
-    .then((json) => {
-        answers = json;
-    });
-}, 1500);
+    setTimeout(() => {
+        fetch('/AskNerus/FrontEnd/Json/answers.json') ////Github
+        // fetch('/FrontEnd/Json/answers.json') ////Local
+        .then((response) => response.json())
+        .then((json) => {
+            answers = json;
+        });
+    }, 1500);
 
-setTimeout(() => {
-    fetch('/AskNerus/FrontEnd/Json/grade.json') ////Github
-    // fetch('/FrontEnd/Json/grade.json') ////Local
-    .then((response) => response.json())
-    .then((json) => {
-        grades = json;
-        fillGrades();
-    });
-}, 2000);
+    setTimeout(() => {
+        fetch('/AskNerus/FrontEnd/Json/grade.json') ////Github
+        // fetch('/FrontEnd/Json/grade.json') ////Local
+        .then((response) => response.json())
+        .then((json) => {
+            grades = json;
+            fillGrades();
+        });
+    }, 2000);
+});
 
 
 
@@ -120,7 +122,7 @@ function displayQuestionsAnswers(subject) {
     
                 dom_aproach.innerHTML = `
                         <div class="approachHeader">Approach ${j+1}</div>
-                        <div class="approachContent">${marked(text, { gfm: true })}</div>
+                        <div class="approachContent"><div class="wrapper">${marked(text, { gfm: true })}</div></div>
                 `
                 // dom_aproach.innerHTML = `
                 //         <div class="approachHeader">Approach ${j+1}</div>
@@ -142,10 +144,17 @@ function showAnswers(qs_identifier) {
     let question = document.getElementById(qs_identifier);
     if (question.getAttribute('data-toggle') == 'collapsed') {
         question.setAttribute('data-toggle', 'expanded');
-        question.nextElementSibling.style.height = `${question.nextElementSibling.scrollHeight}px`;
+        // question.nextElementSibling.style.height = `${question.nextElementSibling.scrollHeight}px`;
+        // question.nextElementSibling.style.height = getComputedStyle(question.nextElementSibling).getPropertyValue('height');
+        // question.nextElementSibling.style.maxHeight = `${question.nextElementSibling.getElementsByClassName('wrapper')[0].clientHeight + question.nextElementSibling.getElementsByClassName('approachHeader')[0].clientHeight}px`;
+        // question.nextElementSibling.style.height = `${question.nextElementSibling.getElementsByClassName('wrapper')[0].clientHeight + question.nextElementSibling.getElementsByClassName('approachHeader')[0].clientHeight}px`;
+        // question.nextElementSibling.style.height = `${question.nextElementSibling.scrollHeight}px`;
+        // question.nextElementSibling.style.height = `${question.nextElementSibling.scrollHeight}px`;
+        question.nextElementSibling.style.height = `fit-content`;
         // question.nextSibling.style.height 
     } else {
         question.setAttribute('data-toggle', 'collapsed');
+        // question.nextElementSibling.style.maxHeight = `0px`;
         question.nextElementSibling.style.height = `0px`;
 
     }

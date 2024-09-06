@@ -761,10 +761,90 @@
         },
         {
             "id": 10,
-            "question": "Condsider the following data to calculate the following: <br><table><tr><th>S.No.</th><th>Particulars</th><th>Rs. (In Crores)</th></tr><tr><td>1.</td><td>Export of Goods and Services</td><td>3542</td></tr><tr><td>2.</td><td>Import of Goods and Services</td><td>3632</td></tr><tr><td>3.</td><td>Private Final Consumption Expenditure/td><td>58326</td></tr><tr><td>4.</td><td>Net Factor Income from Abroad (NFIA)</td><td>-568</td></tr><tr><td>5.</td><td>Subsidies</td><td>674</td></tr><tr><td>6.</td><td>Capital Consumption Allowances (Depreciation)</td><td>4434</td></tr><tr><td>7.</td><td>Compensation of Employees</td><td>26726</td></tr><tr><td>8.</td><td>Covernment's Final consumption Expenditure</td><td>7602</td></tr><tr><td>9.</td><td>Indirect Taxes</td><td>7728</td></tr><tr><td>10.</td><td>Grossed Fixed Capital Formation</td><td>12610</td></tr><tr><td>11.</td><td>Mixed Income of the self-employees</td><td>32224</td></tr><tr><td>13.</td><td>Change in Stocks</td><td>2078</td></tr></table><br>a) GDP<sub>MP</sub> by using income method and by ependiture method.<br>b) GDP<sub>FC</sub> and GNP<sub>MP</sub><br>c) NNP<sub>FC</sub> and NNP<sub>MP</sub>",
+            "question": "Condsider the following data to calculate the following: <br><table><tr><th>S.No.</th><th>Particulars</th><th>Rs. (In Crores)</th></tr><tr><td>1.</td><td>Export of Goods and Services</td><td>3542</td></tr><tr><td>2.</td><td>Import of Goods and Services</td><td>3632</td></tr><tr><td>3.</td><td>Private Final Consumption Expenditure</td><td>58326</td></tr><tr><td>4.</td><td>Net Factor Income from Abroad (NFIA)</td><td>-568</td></tr><tr><td>5.</td><td>Subsidies</td><td>674</td></tr><tr><td>6.</td><td>Capital Consumption Allowances (Depreciation)</td><td>4434</td></tr><tr><td>7.</td><td>Compensation of Employees</td><td>26726</td></tr><tr><td>8.</td><td>Covernment's Final consumption Expenditure</td><td>7602</td></tr><tr><td>9.</td><td>Indirect Taxes</td><td>7728</td></tr><tr><td>10.</td><td>Grossed Fixed Capital Formation</td><td>12610</td></tr><tr><td>11.</td><td>Mixed Income of the self-employees</td><td>32224</td></tr><tr><td>13.</td><td>Change in Stocks</td><td>2078</td></tr></table><br>a) GDP<sub>MP</sub> by using income method and by ependiture method.<br>b) GDP<sub>FC</sub> and GNP<sub>MP</sub><br>c) NNP<sub>FC</sub> and NNP<sub>MP</sub>",
             "marks": 5,
             "probability": 0.5,
             "identifier": "CAEC353_10",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 11,
+            "question": "Explain the Micro Dynamics.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_11",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 12,
+            "question": "Defined Income elasticity of demand & Types of Income elasticity of demand.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_12",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 13,
+            "question": "Explain the Consumer's Equilibrium with the help of Indifference curve approach.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_13",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 14,
+            "question": "Defined the Price Effect. Explain with numerical example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_14",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 15,
+            "question": "Explain the price elasticity with the help of Total Expenditure Method.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_15",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 16,
+            "question": "\"Consumer can be in equilibrium with maximum satisfaction at MU<sub>X</sub> = MU<sub>Y</sub> = MU<sub>m</sub>.\" justify with numerical example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_16",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 17,
+            "question": "Short Notes on:<br>a. Subject Matters of Micro Economics.<br>b. Shift of demand curve.<br>c. Importance of Economics for BCA Student.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_17",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 18,
+            "question": "Define indifference Curve and it's Properties.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_18",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 19,
+            "question": "\"Price Elasticity of demand is the combination of Income Effect and Substitution Effect\". Justify with the help of figure.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_19",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 20,
+            "question": "Why does Demand curve downward slopping left to right. Explain.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CAEC353_20",
             "askedIn": ["-"]
         },
         {}
