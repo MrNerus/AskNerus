@@ -848,5 +848,168 @@
             "askedIn": ["-"]
         },
         {}
+    ],
+    "CACS354": [
+        {
+            "id": 1,
+            "question": "Why do we use panels while creating GUI Applications in Java? Explain the components of event handeling model in Java.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_1",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 2,
+            "question": "What are adapter class? What is the benefit of using adapter classes in Java while creating events in GUI programs? Explain with an example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_2",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 3,
+            "question": "How the data can be access through a resultset object? Explain forward-only, scroll insensitive and scroll sensitive resultsets.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_3",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 4,
+            "question": "What is Javabean? Explain different types of properties in Javabeans.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_4",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 5,
+            "question": "What are the differences between Servlets and Java Application? Explain different methods used for handeling cookies in Java.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_5",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 6,
+            "question": "What are marshalling and unmarshalling of arguments in RMI? Differentiate between COBRA and RMI.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_6",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 7,
+            "question": "Write short notes on:<br>a) 2D Shapes in swing.<br>b) MouseEvent and MouseListener.<br>c) Session Tracking.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_7",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 8,
+            "question": "Why do we need to use Layout managers while creating GUI application in Java? Explain the key interfaces required to develop any database application in Java. Also, write a program to display the records from the table Students who have got distinction and has a major subject Data Science. Assume that the student table is in the database College and contains the columns Rollno, Name, Level, Division and Major.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_8",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 9,
+            "question": "Differentiate between declaration and expression tags used in JSP. Also create a JSP page that contains three textboxes to input three numbers and a button. It should display the greatest number among three numbers when the button is clicked.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_9",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 10,
+            "question": "What is RMI? Explain it's components. Write a client server application in RMI to find the selling price of an item with cost price of Rs. 5000 after a discout of Rs. 50.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_10",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 11,
+            "question": "Why do we need top level container like JFrame to write Java programs with GUI? How can we display two dimensional objects in Java?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_11",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 12,
+            "question": "Explain JTextField and JTextArea components of Java swing library.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_12",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 13,
+            "question": "How do you execute SQL statements uning JDBC? Explain with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_13",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 14,
+            "question": "Compare result set with row set. Explain prepared statement with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_14",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 15,
+            "question": "How do you set and get Cookie in Servlet? Explain using suitable Java program.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_15",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 16,
+            "question": "Explain different scripting elements of JSP with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_16",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 17,
+            "question": "Write short notes on:<br>a) Java Web Frameworks.<br>b) CORBA.<br>c) Bean bound property.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_17",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 18,
+            "question": "Write a GUI application to find sum and difference of tow integer numbers. Use two test fields for input and third text field for output. Your program should display the sum if the user presses the mouse and difference if the user releases the mouse.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_18",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 19,
+            "question": "What is bean design pattern? Explain simple, Boolean and indexed porperty design patterns with suitable examples in detail.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_19",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 20,
+            "question": "Define RMI. What is stub and parameter marshalling? Write a client / server application using RMI to find the product of two numbers.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS354_20",
+            "askedIn": ["-"]
+        },
+        {}
     ]
 }
