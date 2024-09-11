@@ -1011,5 +1011,168 @@
             "askedIn": ["-"]
         },
         {}
+    ],
+    "CACS355": [
+        {
+            "id": 1,
+            "question": "What is Client-Server Software model? Explain the strength and weakness of java programming as a network programming language.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_1",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 2,
+            "question": "What is the use of InetAddress class? Write a program to retrive IP Address and MAC Address.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_2",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 3,
+            "question": "Define URL Class. Write a program to show the part of the URL (Splitting URL).",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_3",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 4,
+            "question": "Define Socket. Differentiate between TCP and UDP Sockets with there applications.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_4",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 5,
+            "question": "Define cookies. Write a program to retrive cookie information stored in the system.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_5",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 6,
+            "question": "Define IP Multicast. Write a program to join computer in a multicast group.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_6",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 7,
+            "question": "Write short notes on:<br>a) HTTP.<br>b) RMI.<br>c) Secure Socket.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_7",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 8,
+            "question": "Write a multi threaded TCP client and server socket programs for daytime services.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_8",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 9,
+            "question": "Write UDP client and server socket programs in which the server identifies the number sent by a client is either even or odd and replies to the client accordingly.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_9",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 10,
+            "question": "How Blocking I/O is differing from Non-Blocking I/O? Explain the basic mechanism of handeling Buffers and Channels in JAVA with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_10",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 11,
+            "question": "Define Client Server Model. Explain the feature of JAVA as a Network Programming language.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_11",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 12,
+            "question": "What is the use of NetworkInterface Class? Explain the basic features of NetworkInterface class.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_12",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 13,
+            "question": "Explain HTTP methods with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_13",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 14,
+            "question": "Write a program to display the socket information [address, port, localaddress, localport].",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_14",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 15,
+            "question": "Write a server side program for daytime service using socket.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_15",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 16,
+            "question": "Define Non-Blocking I/O. Differentiate Between Blocking and Non-Blocking socket communication in JAVA.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_16",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 17,
+            "question": "Write short Notes on:<br>a) Secure Communication.<br>b) Multicast Sockets.<c>RMI Server.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_17",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 18,
+            "question": "What is the procedure for constructing and connecting Server Socket? Explain the server socket options with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_18",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 19,
+            "question": "Write a program to perform basic two way communication between client and server.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_19",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 20,
+            "question": "What are the features of Datagram Packet and Datagram Socket Class? Write a program to create a simple UDP client.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS355_20",
+            "askedIn": ["-"]
+        },
+        {}
     ]
 }
