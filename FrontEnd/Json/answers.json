@@ -880,5 +880,16 @@
     "CACS355_18": { "id":18, "identifier": "", "answers": ["CACS355_18_1.md"] },
     "CACS355_19": { "id":19, "identifier": "", "answers": ["CACS355_19_1.md"] },
     "CACS355_20": { "id":20, "identifier": "", "answers": ["CACS355_20_1.md"] },
+
+    "CACS401_1":  { "id":1,  "identifier": "", "answers": ["CACS401_1_1.md"]  },
+    "CACS401_2":  { "id":2,  "identifier": "", "answers": ["CACS401_2_1.md"]  },
+    "CACS401_3":  { "id":3,  "identifier": "", "answers": ["CACS401_3_1.md"]  },
+    "CACS401_4":  { "id":4,  "identifier": "", "answers": ["CACS401_4_1.md"]  },
+    "CACS401_5":  { "id":5,  "identifier": "", "answers": ["CACS401_5_1.md"]  },
+    "CACS401_6":  { "id":6,  "identifier": "", "answers": ["CACS401_6_1.md"]  },
+    "CACS401_7":  { "id":7,  "identifier": "", "answers": ["CACS401_7_1.md"]  },
+    "CACS401_8":  { "id":8,  "identifier": "", "answers": ["CACS401_8_1.md"]  },
+    "CACS401_9":  { "id":9,  "identifier": "", "answers": ["CACS401_9_1.md"]  },
+    "CACS401_10": { "id":10, "identifier": "", "answers": ["CACS401_10_1.md"]  },
     "": {}
 }

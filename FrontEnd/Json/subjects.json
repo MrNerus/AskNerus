@@ -33,5 +33,8 @@
         { "id": 4, "name": "Advanced Java",       "identifier": "CACS354" },
         { "id": 5, "name": "Network Programming", "identifier": "CACS355" },
         { "id": 6, "name": "Project II",          "identifier": "CAPJ356" }
+    ],
+    "BCA_S7": [
+        { "id": 1, "name": "Cyber Law",  "identifier": "CACS401" }
     ]
 }

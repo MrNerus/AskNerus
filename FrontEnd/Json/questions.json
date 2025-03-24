@@ -1174,5 +1174,89 @@
             "askedIn": ["-"]
         },
         {}
-    ]
+    ],
+    "CACS401": [
+        {
+            "id": 1,
+            "question": "Explain corporate social responsibility (CSR). Why should organizations pursue CSR?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS401_1",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 2,
+            "question": "Explain Cyber law. what are the different laws relating to cyber law?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS401_2",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 3,
+            "question": "Why computer incidents are so prevalent? Explain.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS401_3",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 4,
+            "question": "What are the challenges and benefits of using Internet anonymously?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS401_4",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 5,
+            "question": "Define intellectual property. How can we protect such property using copyright?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS401_5",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 6,
+            "question": "How can we improve quality in Softwares? why software quality is important?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS401_6",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 7,
+            "question": "Write short notes in (Any Two)<br>a. Computer forensics<br>b. Internet censorship<br>c. plagiarism",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS401_7",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 8,
+            "question": "What do you mean by ethics in the business world? explain different actions that organizations take to improve business ethics.",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CACS401_8",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 9,
+            "question": "what do you mean by ethics in the business world? explain different actions that organizations take to improve business ethics.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS401_9",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 10,
+            "question": "Define freedom of expression, what are the key issues related with freedom of expression? Explain.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS401_10",
+            "askedIn": ["-"]
+        },
+        {}
+    ],
+    "": []
 }

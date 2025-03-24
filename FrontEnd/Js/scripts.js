@@ -11,8 +11,8 @@ window.addEventListener('load', function() {
 
     // fetch json into these variable
     setTimeout(() => {
-        fetch('/AskNerus/FrontEnd/Json/subjects.json') ////Github
-        // fetch('/FrontEnd/Json/subjects.json') ////Local
+        // fetch('/AskNerus/FrontEnd/Json/subjects.json') ////Github
+        fetch('/FrontEnd/Json/subjects.json') ////Local
         .then((response) => response.json())
         .then((json) => {
             subjects = json;
@@ -20,8 +20,8 @@ window.addEventListener('load', function() {
     }, 500);
 
     setTimeout(() => {
-        fetch('/AskNerus/FrontEnd/Json/questions.json') ////Github
-        // fetch('/FrontEnd/Json/questions.json') ////Local
+        // fetch('/AskNerus/FrontEnd/Json/questions.json') ////Github
+        fetch('/FrontEnd/Json/questions.json') ////Local
         .then((response) => response.json())
         .then((json) => {
             questions = json;
@@ -29,8 +29,8 @@ window.addEventListener('load', function() {
     }, 1000);
 
     setTimeout(() => {
-        fetch('/AskNerus/FrontEnd/Json/answers.json') ////Github
-        // fetch('/FrontEnd/Json/answers.json') ////Local
+        // fetch('/AskNerus/FrontEnd/Json/answers.json') ////Github
+        fetch('/FrontEnd/Json/answers.json') ////Local
         .then((response) => response.json())
         .then((json) => {
             answers = json;
@@ -38,8 +38,8 @@ window.addEventListener('load', function() {
     }, 1500);
 
     setTimeout(() => {
-        fetch('/AskNerus/FrontEnd/Json/grade.json') ////Github
-        // fetch('/FrontEnd/Json/grade.json') ////Local
+        // fetch('/AskNerus/FrontEnd/Json/grade.json') ////Github
+        fetch('/FrontEnd/Json/grade.json') ////Local
         .then((response) => response.json())
         .then((json) => {
             grades = json;
@@ -112,8 +112,8 @@ function displayQuestionsAnswers(subject) {
         dom_answers.className = "answers";
         
         for (let j = 0; j < answers[qs_identifier].answers.length; j++) {
-            fetch(`/AskNerus/FrontEnd/MDs/${answers[qs_identifier].answers[j]}`) ////Github
-            // fetch(`/FrontEnd/MDs/${answers[qs_identifier].answers[j]}`) ////Local
+            // fetch(`/AskNerus/FrontEnd/MDs/${answers[qs_identifier].answers[j]}`) ////Github
+            fetch(`/FrontEnd/MDs/${answers[qs_identifier].answers[j]}`) ////Local
             .then((response) => response.text())
             .then((text) => {
                 
