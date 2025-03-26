@@ -1243,7 +1243,7 @@
         {
             "id": 9,
             "question": "what do you mean by ethics in the business world? explain different actions that organizations take to improve business ethics.",
-            "marks": 5,
+            "marks": 10,
             "probability": 0.5,
             "identifier": "CACS401_9",
             "askedIn": ["-"]
@@ -1251,9 +1251,92 @@
         {
             "id": 10,
             "question": "Define freedom of expression, what are the key issues related with freedom of expression? Explain.",
-            "marks": 5,
+            "marks": 10,
             "probability": 0.5,
             "identifier": "CACS401_10",
+            "askedIn": ["-"]
+        },
+        {}
+    ],
+    "CACS402": [
+        {
+            "id": 1,
+            "question": "Define cloud computing. List out characteristics of cloud computing.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS402_1",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 2,
+            "question": "Differentiate between distributed Computing and cloud computing.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS402_2",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 3,
+            "question": "Comparison between public clouds and private clouds with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS402_3",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 4,
+            "question": "What are the advantage of OS level virtualization?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS402_4",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 5,
+            "question": "Discuss the applications of map reduce.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS402_5",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 6,
+            "question": "Explain the software-as-a-Service security with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS402_6",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 7,
+            "question": "Write short notes on <b>Any Two</b>:<br>a. Hybrid Clouds<br>b. Data Security<br>c. Scientific applications",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS402_7",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 8,
+            "question": "Explain the cloud deployment models, in detail with their benefits and limitations while implementing and application.",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CACS402_8",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 9,
+            "question": "Differentiate between full-virtualization and para-virtualization also give one example VMM (Wirtual Machine Monitor) that was built in each of the two categories.",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CACS402_9",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 10,
+            "question": "Explain the different techniques are used for data encryption in cloud computing with example.",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CACS402_10",
             "askedIn": ["-"]
         },
         {}

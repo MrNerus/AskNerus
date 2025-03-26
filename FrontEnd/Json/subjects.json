@@ -35,6 +35,7 @@
         { "id": 6, "name": "Project II",          "identifier": "CAPJ356" }
     ],
     "BCA_S7": [
-        { "id": 1, "name": "Cyber Law",  "identifier": "CACS401" }
+        { "id": 1, "name": "Cyber Law",  "identifier": "CACS401" },
+        { "id": 1, "name": "Cloud Computing",  "identifier": "CACS402" }
     ]
 }

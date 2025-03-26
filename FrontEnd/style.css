@@ -219,19 +219,19 @@ code.language-xml {
 }
 
 
-.question.question table {
+.question.question table, .answers.answers table {
     border: var(--border);
     border-radius: var(--font-size);
     text-align: left;
     border-spacing: 0;
     overflow: hidden;
 }
-.question.question table td, .question.question table th {
+.question.question table td, .question.question table th, .answers.answers table td, .answers.answers table th {
     border: var(--border);
     padding: 0.25rem 0.5rem;
     margin: 0
 }
-.question.question table td, .question.question table th {
+.question.question table td, .question.question table th, .answers.answers table td, .answers.answers table th {
     border: var(--border);
     padding: 0.25rem 0.5rem;
     margin: 0;
