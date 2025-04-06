@@ -1,8 +1,18 @@
-
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@9/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: true});
 var grades = {};
 var subjects = {};
 var questions = {};
 var answers = {};
+
+window.fillGrades = fillGrades;
+window.fillSubjects = fillSubjects;
+window.start = start;
+window.displayQuestionsAnswers = displayQuestionsAnswers;
+window.showAnswers = showAnswers;
+window.renderMermaid = renderMermaid;
+
+
 
 
 // const marked = require('marked');
@@ -51,7 +61,7 @@ window.addEventListener('load', function() {
 
 
 
-function fillGrades() {
+export function fillGrades() {
     let select = document.getElementById('grade');
     select.innerHTML = "";
     for (let i = 0; i < grades.length; i++) {
@@ -63,7 +73,7 @@ function fillGrades() {
     fillSubjects();
 }
 
-function fillSubjects() {
+export function fillSubjects() {
     let select = document.getElementById('subject');
     let grade = document.getElementById('grade').value;
     select.innerHTML = "";
@@ -77,7 +87,7 @@ function fillSubjects() {
 
 
 
-function start() {
+export function start() {
     let grade = document.getElementById('grade').value;
     let subject = document.getElementById('subject').value;
     let mode = document.getElementById('mode').value;
@@ -94,7 +104,7 @@ function start() {
 
 
 
-function displayQuestionsAnswers(subject) {
+export function displayQuestionsAnswers(subject) {
     let all_questions = questions[subject];
     let dom_questionAnswers_container = document.getElementById('questionAnswers_container');
     dom_questionAnswers_container.innerHTML = "";
@@ -120,27 +130,27 @@ function displayQuestionsAnswers(subject) {
                 let dom_aproach = document.createElement('div');
                 dom_aproach.className = "aproach";
     
-                dom_aproach.innerHTML = `
-                        <div class="approachHeader">Approach ${j+1}</div>
-                        <div class="approachContent"><div class="wrapper">${marked(text, { gfm: true })}</div></div>
-                `
                 // dom_aproach.innerHTML = `
                 //         <div class="approachHeader">Approach ${j+1}</div>
-                //         <div class="approachContent">${marked.parse(text)}</div>
+                //         <div class="approachContent"><div class="wrapper">${marked(text, { gfm: true })}</div></div>
                 // `
+                dom_aproach.innerHTML = `
+                        <div class="approachHeader">Approach ${j+1}</div>
+                        <div class="approachContent"><md-block class="wrapper">${text}</md-block></div>
+                `
+
                 dom_answers.appendChild(dom_aproach);
             })
         }
         dom_question_container.appendChild(dom_answers);
         dom_questionAnswers_container.appendChild(dom_question_container);
     }
-        console.log(all_questions);
 }
 
 
 
 
-function showAnswers(qs_identifier) {
+export function showAnswers(qs_identifier) {
     let question = document.getElementById(qs_identifier);
     if (question.getAttribute('data-toggle') == 'collapsed') {
         question.setAttribute('data-toggle', 'expanded');
@@ -151,6 +161,7 @@ function showAnswers(qs_identifier) {
         // question.nextElementSibling.style.height = `${question.nextElementSibling.scrollHeight}px`;
         // question.nextElementSibling.style.height = `${question.nextElementSibling.scrollHeight}px`;
         question.nextElementSibling.style.height = `fit-content`;
+        renderMermaid();
         // question.nextSibling.style.height 
     } else {
         question.setAttribute('data-toggle', 'collapsed');
@@ -158,4 +169,9 @@ function showAnswers(qs_identifier) {
         question.nextElementSibling.style.height = `0px`;
 
     }
+}
+
+export function renderMermaid() {
+    mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+
 }

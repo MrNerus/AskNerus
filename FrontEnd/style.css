@@ -246,3 +246,13 @@ code.language-xml {
 .answers.answers img:hover {
     box-shadow: 0 0 0.25rem 0.25rem var(--line);
 }
+
+
+.mermaid { 
+    height:100%;
+    overflow: auto;
+}
+
+svg {
+    overflow: visible;
+}

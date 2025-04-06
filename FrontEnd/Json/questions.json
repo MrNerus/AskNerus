@@ -1341,5 +1341,112 @@
         },
         {}
     ],
+    "CACS409": [
+        {
+            "id": 1,
+            "question": "Explain the critical flow model in e-Governance.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS409_1",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 2,
+            "question": "What do you mean by e-Readiness framework? Explain with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS409_2",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 3,
+            "question": "Discuss the main impact of e-Governance application in digital divide.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS409_3",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 4,
+            "question": "What are the current trends of e-Governance development in Nepal.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS409_4",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 5,
+            "question": "Explain the Comparative Analysis Model with example.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS409_5",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 6,
+            "question": "What are the pre-requisites of e-readiness for intra structure development.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS409_6",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 7,
+            "question": "How can you develop the rural area through e-governance?",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS409_7",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 8,
+            "question": "Differentiate between e-Government and e-Governance. What are the various stages of E-governance?",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CACS409_8",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 9,
+            "question": "Explain with example of maturity model of e-governance.",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CACS409_9",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 10,
+            "question": "Explain the components of data warehouse. What are the applications of data mining in e-Governance in the context of Nepal.",
+            "marks": 10,
+            "probability": 0.5,
+            "identifier": "CACS409_10",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 11,
+            "question": "Explain the strategic planning important for e-Governent implementation.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS409_11",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 12,
+            "question": "What are the main contents are needed for human resource management software? Explain.",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS409_12",
+            "askedIn": ["-"]
+        },
+        {
+            "id": 13,
+            "question": "13. Write Short notes:<br>a. IT in Judiciary<br>b. e-payment",
+            "marks": 5,
+            "probability": 0.5,
+            "identifier": "CACS409_13",
+            "askedIn": ["-"]
+        },
+        {}
+    ],
     "": []
 }
